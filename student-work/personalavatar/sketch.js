@@ -10,13 +10,13 @@ function preload() {
   disneySquareEnixsKH = loadSound("assets/The Afternoon Streets.mp3");
   disneysPotC = loadSound("assets/The Caribbean - Davy Jones.mp3");
   disneysBigHero6 = loadSound("assets/San Fransokyo - Hiro's VR Course.mp3");
-  prSong1 = loadSound("Peacock Dance Display - Sound 1.mp3");
-  prSong2 = loadSound("Peacock Dance Display - Sound 2.mp3");
-  prSong3 = loadSound("Peacock Dance Display - Sound 3.mp3");
-  prSong4 = loadSound("Peacock Dance Display - Sound 4.mp3");
-  prSong5 = loadSound("Peacock Dance Display - Sound 5.mp3");
-  prSong6 = loadSound("Peacock Dance Display - Sound 6.mp3");
-  prSong7 = loadSound("Peacock Dance Display - Sound 7.mp3");
+  prSong1 = loadSound("assets/Peacock Dance Display - Sound 1.mp3");
+  prSong2 = loadSound("assets/Peacock Dance Display - Sound 2.mp3");
+  prSong3 = loadSound("assets/Peacock Dance Display - Sound 3.mp3");
+  prSong4 = loadSound("assets/Peacock Dance Display - Sound 4.mp3");
+  prSong5 = loadSound("assets/Peacock Dance Display - Sound 5.mp3");
+  prSong6 = loadSound("assets/Peacock Dance Display - Sound 6.mp3");
+  prSong7 = loadSound("assets/Peacock Dance Display - Sound 7.mp3");
 }
 function setup() {
   art1 = loadImage("assets/At World's End At Night.png");
@@ -193,7 +193,7 @@ function keyTyped() {
       disneysPotC.setVolume(0.25);
       disneysPotC.play();
       prSong1.setVolume(0.25);
-      prSong1.play();
+      prSong1.loop();
     } else if (key === 'a') {
       disneysPotC.stop();
       prSong1.stop();
@@ -203,7 +203,7 @@ function keyTyped() {
       disneySquareEnixsKH.setVolume(0.35);
       disneySquareEnixsKH.play();
       prSong2.setVolume(0.35);
-      prSong2.play();
+      prSong2.loop();
     } else if (key === 'b') {
       disneySquareEnixsKH.stop();
       prSong2.stop();
@@ -213,7 +213,7 @@ function keyTyped() {
       disneysHercules.setVolume(0.35);
       disneysHercules.play();
       prSong3.setVolume(0.35);
-      prSong3.play();
+      prSong3.loop();
     } else if (key === 'c') {
       disneysHercules.stop();
       prSong3.stop();
@@ -223,7 +223,7 @@ function keyTyped() {
       disneyPixarsToyStory.setVolume(0.35);
       disneyPixarsToyStory.play();
       prSong4.setVolume(0.35);
-      prSong4.play();
+      prSong4.loop();
     } else if (key === 'd') {
       disneyPixarsToyStory.stop();
       prSong4.stop();
@@ -233,7 +233,7 @@ function keyTyped() {
       disneysBigHero6.setVolume(0.25);
       disneysBigHero6.play();
       prSong5.setVolume(0.25);
-      prSong5.play();
+      prSong5.loop();
     } else if (key === 'e') {
       disneysBigHero6.stop();
       prSong5.stop();
@@ -243,7 +243,7 @@ function keyTyped() {
       disneySquareEnixsKH.setVolume(0.35);
       disneySquareEnixsKH.play();
       prSong6.setVolume(0.35);
-      prSong6.play();
+      prSong6.loop();
     } else if (key === 'f') {
       disneySquareEnixsKH.stop();
       prSong6.stop();
@@ -253,7 +253,7 @@ function keyTyped() {
       disneyPixarsMonstersInc.setVolume(0.5);
       disneyPixarsMonstersInc.play();
       prSong7.setVolume(0.5);
-      prSong7.play();
+      prSong7.loop();
     } else if (key === 'g') {
       disneyPixarsMonstersInc.stop();
       prSong7.stop();
